@@ -1,5 +1,4 @@
-Welcome to the Playlist 4
+Glitch and WebStorm Gym App
 =========================
-
-Version 4 of the Playlist application
-"# gymappglitch" 
+Diana Tifrea
+15721225

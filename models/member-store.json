@@ -1,0 +1,16 @@
+{
+  "members": [
+    {
+      "name": "Diana Morena Tifrea",
+      "email": "aneroma@yahoo.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "gender": "Female",
+      "address": "14 Jacob Street",
+      "height": "100",
+      "startWeight": 95,
+      "totalMeasure": null,
+      "currentWeight": 0
+    }
+  ]
+}

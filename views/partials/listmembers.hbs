@@ -1,0 +1,30 @@
+{{#each member}}
+
+  <section class="ui segment">
+    
+    <div class="item">
+      <i class="large github middle aligned icon"></i>
+      
+      <div class="content">
+        
+        <div class="header">
+          
+    <a href="/member/{{id}}" class="ui icon button"> 
+        {{name}}
+    </a>
+          
+    <a href="/trainerdash/deletemember/{{id}}">
+      <i class="ui large red trash alternate icon"></i>
+    </a>
+          
+    <div class="description"> 
+        assessments 
+        </div>
+          
+      </div>
+        
+    </div>
+      
+  </section>
+    
+{{/each}}

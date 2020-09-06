@@ -1,0 +1,43 @@
+<section class="ui segment">
+    <div class="ui four small statistics">
+        <div class="ui statistic">
+            <div class="value">
+                <i class="{{goals}} bullseye icon"></i>
+            </div>
+            <div class="label">
+                Goals
+            </div>
+        </div>
+</section>
+<section class="ui raised segment">
+    <table class="ui fixed table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Weigth</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each goals}}
+            <tr>
+                <td>
+                    {{date}}
+                </td>
+                <td>
+                    {{weigth}}
+                </td>
+                <td>
+                    <a class="ui teal tag label"></a>
+                </td>
+                <td>
+                    {{status}}
+                <td>
+                </td>
+                </td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</section>

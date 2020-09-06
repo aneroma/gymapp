@@ -1,0 +1,47 @@
+{{> menu id="dashboard"}}
+
+<section class="ui segment">
+    <div class="ui four small statistics">
+        <div class="ui statistic">
+            <div class="value">
+                <i class="user icon"></i>
+            </div>
+            <div class="label">
+                {{member.name}}
+            </div>
+        </div>
+        <div class="ui statistic">
+            <div class="value">
+                <i class="{{idealWeightInd}} green dashboard icon"></i>
+            </div>
+            <div class="label">
+                Ideal Weight Indicator
+            </div>
+        </div>
+        <div class="ui statistic">
+            <div class="value">
+                <i class="heartbeat icon"></i>
+            </div>
+            <div class="label">
+                BMI {{bmi}}
+            </div>
+        </div>
+        <div class="ui statistic">
+            <div class="value">
+                <i class="doctor icon"></i>
+            </div>
+            <div class="label">
+                {{bmiCategory}}
+            </div>
+        </div>
+    </div>
+</section>
+
+    {{> listassessments}}
+    {{> listgoals}}
+    {{> addassessment}}
+    {{> addgoal}}
+</section>
+
+
+
